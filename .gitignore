@@ -1,0 +1,28 @@
+# Secrets — never commit (Gemini API key, DB password)
+.env
+.env.*
+!.env.example
+!frontend/.env.development
+
+# Dependencies / virtual environments
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Build output
+dist/
+dist-ssr/
+
+# Editors / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Local design reference image — not published
+*Command Center*.png
+docs/design-reference.png

@@ -1,0 +1,96 @@
+CHENNAI AI ICCC OPERATIONAL KNOWLEDGE
+
+SECTION 1: FLOOD RESPONSE
+
+When water-level sensors indicate a critical flood condition,
+the control room should verify the reading using nearby sensors
+and available rainfall information.
+
+If multiple nearby sensors indicate rising water levels,
+the incident should be treated as a potentially genuine flood
+condition.
+
+Operators should identify affected roads and vulnerable areas,
+monitor traffic conditions, and coordinate emergency response.
+
+Emergency routes should be checked before recommending
+ambulance or rescue movement.
+
+AI-generated recommendations must be reviewed by an authorised
+human operator before operational actions are executed.
+
+
+SECTION 2: TRAFFIC INCIDENT RESPONSE
+
+When a major traffic incident is detected, the control room
+should assess the incident location, current traffic conditions,
+nearby junction congestion, and available emergency resources.
+
+Emergency vehicle routes should be evaluated before dispatch.
+
+Where appropriate, traffic signal priority may be considered
+to facilitate emergency movement.
+
+Any operational signal change or road-management action should
+require authorised human approval.
+
+
+SECTION 3: AMBULANCE RESPONSE
+
+When an emergency medical incident is detected, the system
+should identify an available nearby ambulance.
+
+The recommended ambulance route should consider current
+traffic conditions and known road restrictions.
+
+The estimated travel time should be communicated to the
+operator.
+
+The AI system may recommend ambulance dispatch and route
+selection, but final operational approval must remain with
+an authorised human operator.
+
+
+SECTION 4: SENSOR VALIDATION
+
+Sensor readings should not automatically be treated as valid
+when they significantly differ from nearby sensors.
+
+The system should compare the reading with other sensors of
+the same type and consider recent historical values.
+
+If a sensor appears unreliable, the system should flag it as
+potentially anomalous and use available neighbouring data
+where appropriate.
+
+Operators should be informed when sensor reliability is low.
+
+
+SECTION 5: AI SAFETY
+
+The AI Operations Agent is a decision-support system.
+
+AI recommendations must be explainable to the operator.
+
+Emergency actions such as ambulance dispatch, signal changes,
+road closures, traffic rerouting, and emergency notifications
+require human approval before execution.
+
+The AI system must not claim that an operational action was
+executed unless an execution service confirms that the action
+was actually performed.
+
+
+SECTION 6: DIGITAL TWIN WHAT-IF ANALYSIS
+
+The digital twin may be used to simulate potential situations
+before operational decisions are made.
+
+Example scenarios include increased traffic, extreme rainfall,
+road closure, emergency incidents, and sensor failure.
+
+Scenario results should be clearly identified as simulations
+and should not be presented as actual observations.
+
+Operators can compare predicted outcomes and use the results
+as decision-support information.
