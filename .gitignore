@@ -26,3 +26,6 @@ Thumbs.db
 # Local design reference image — not published
 *Command Center*.png
 docs/design-reference.png
+
+# Report drafts and figures (kept local)
+report/
